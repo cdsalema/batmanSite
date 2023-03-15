@@ -252,7 +252,7 @@ span {
     }
 }
 
-@media(min-height:390px) {
+@media(max-height:390px) {
     .footer-navigation {
         display: block;
     }
