@@ -192,7 +192,7 @@ span {
     align-items: center;
 }
 
-@media(max-width:768px) {
+@media(max-width:820px) {
     .footer-navigation {
         display: block;
     }
@@ -251,6 +251,7 @@ span {
         margin-top: 150px;
     }
 }
+
 
 @media(max-height:415px) {
     .footer-navigation {
