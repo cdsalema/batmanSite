@@ -201,8 +201,73 @@ span {
         display: none;
     }
 
+
     #banner {
-        background-position: 40%;
+        height: 300px;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-image: url('https://valkirias.com.br/wp-content/uploads/2022/03/valkirias-the-batman-capa-1.png');
+
+
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .content {
+        margin-top: 110px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 95%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 95%;
+    }
+
+    .button {
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
+
+@media(min-height:390px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+
+    #banner {
+        height: 300px;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-image: url('https://valkirias.com.br/wp-content/uploads/2022/03/valkirias-the-batman-capa-1.png');
+
 
     }
 
