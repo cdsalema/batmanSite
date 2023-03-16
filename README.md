@@ -4,4 +4,4 @@
 
 ### Implementar CSS com FLEX e GRID nesse projeto.
 
-- [X] <a href="https://cdsalema.github.io/batmanSite/">deploy</a>
+- [X] <a href="https://cdsalema-batmansite.netlify.app/">deploy</a>
